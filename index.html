@@ -457,17 +457,17 @@
     </footer>
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
+        <p class="contact-title">
+          Leave your contacts and we will call you back
+        </p>
         <button type="button" class="modal-close-btn" data-modal-close>
           <svg class="modal-close-icon" width="8" height="8">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
         <form class="contact-form">
-          <h3 class="contact-title">
-            Leave your contacts and we will call you back
-          </h3>
-          <label class="contact-form-field-wrapper">
-            <span class="contact-form-desc">Name</span>
+          <div class="contact-form-field-wrapper">
+            <label class="contact-form-desc">Name</label>
             <span class="contact-form-imput-wrapper">
               <input
                 class="contact-form-imput"
@@ -480,9 +480,9 @@
                 <use href="./images/icons.svg#icon-person"></use>
               </svg>
             </span>
-          </label>
-          <label class="contact-form-field-wrapper">
-            <span class="contact-form-desc">Phone</span>
+          </div>
+          <div class="contact-form-field-wrapper">
+            <label class="contact-form-desc">Phone</label>
             <span class="contact-form-imput-wrapper">
               <input
                 class="contact-form-imput"
@@ -496,9 +496,9 @@
                 <use href="./images/icons.svg#icon-phone"></use>
               </svg>
             </span>
-          </label>
-          <label class="contact-form-field-wrapper">
-            <span class="contact-form-desc">Email</span>
+          </div>
+          <div class="contact-form-field-wrapper">
+            <label class="contact-form-desc">Email</label>
             <span class="contact-form-imput-wrapper">
               <input
                 class="contact-form-imput"
@@ -511,35 +511,37 @@
                 <use href="./images/icons.svg#icon-email"></use>
               </svg>
             </span>
-          </label>
-          <label class="contact-form-field-wrapper">
-            <span class="contact-form-desc">Comment</span>
+          </div>
+          <div class="contact-form-field-wrapper">
+            <label class="contact-form-desc">Comment</label>
             <textarea
               class="contact-form-comment"
               name="user-comment"
               placeholder="Text input"
             ></textarea>
-          </label>
-          <label class="contact-form-policy-wrapper">
+          </div>
+          <div class="contact-form-policy-wrapper">
             <input
               class="contact-form-policy"
               type="checkbox"
               name="user_policy"
               required
             />
-            <svg class="contact-form-checkbox-icon" width="16" height="16">
-              <use
-                class="contact-form-checkmark"
-                href="./images/icons.svg#icon-checkbox"
-              ></use>
-            </svg>
-            <span class="contact-form-policy-desc"
-              >I accept the terms and conditions of the
+            <label class="contact-form-policy-desc">
+              <span
+                ><svg class="contact-form-checkbox-icon" width="16" height="16">
+                  <use
+                    class="contact-form-checkmark"
+                    href="./images/icons.svg#icon-checkbox"
+                  ></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the
               <a href="./index.html" class="contact-form-policy-color"
                 >Privacy Policy</a
-              >
-            </span>
-          </label>
+              ></label
+            >
+          </div>
           <button href="./index.html" type="submit" class="contact-form-submit">
             Send
           </button>
