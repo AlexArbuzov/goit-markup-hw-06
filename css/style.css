@@ -843,6 +843,11 @@ body {
   margin-bottom: 16px;
 }
 
+.contact-form-mar {
+  display: block;
+  margin-bottom: 8px;
+}
+
 .contact-form-imput-wrapper {
   position: relative;
   display: block;
