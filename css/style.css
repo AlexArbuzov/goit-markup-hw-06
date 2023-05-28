@@ -883,12 +883,9 @@ body {
 
 .contact-form-icon {
   position: absolute;
-  top: 50%;
   left: 16px;
+  top: 50%;
   transform: translateY(-50%);
-  display: block;
-  width: 18px;
-  height: 24px;
   fill: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -954,6 +951,7 @@ body {
   > .contact-form-checkmark-page {
   background-color: #404bbf;
   fill: var(--background-color);
+  border: none;
   border-color: #404bbf;
 }
 
