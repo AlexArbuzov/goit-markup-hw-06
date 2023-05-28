@@ -839,12 +839,8 @@ body {
 }
 
 .contact-form-field-wrapper {
-  margin-bottom: 16px;
-}
-
-.contact-form-policy-wrapper {
   display: block;
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 
 .contact-form-imput-wrapper {
@@ -922,15 +918,16 @@ body {
   display: flex;
   align-items: center;
   font-size: 12px;
+  margin-bottom: 24px;
 }
 
 .contact-form-policy-desc {
   font-family: var(--primary-font);
   font-weight: 400;
   font-size: 12px;
-  line-height: 14px;
   letter-spacing: 0.04em;
   color: #8e8f99;
+  line-height: 1.17;
 }
 
 .contact-form-policy-color {
