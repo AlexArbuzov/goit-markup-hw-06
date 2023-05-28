@@ -855,7 +855,9 @@ body {
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   padding-left: 38px;
-  transition: var(--transition-duration-and-func);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  background-color: transparent;
+  outline: transparent;
 }
 
 .contact-form-imput:focus {
@@ -884,6 +886,7 @@ body {
   width: 18px;
   height: 24px;
   fill: #2e2f42;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact-form-imput:focus + .contact-form-icon {
