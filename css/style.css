@@ -940,49 +940,6 @@ body {
   text-decoration: underline;
 }
 
-.contact-form-policy {
-  appearance: none;
-  position: absolute;
-}
-
-.contact-form-checkbox-icon {
-  padding: 2px;
-  border: 1px solid rgba(46, 47, 66, 0.4);
-  border-radius: 2px;
-  cursor: pointer;
-  margin-right: 10px;
-}
-
-.contact-form-checkmark-page {
-  width: 16px;
-  height: 16px;
-  border: 1px solid rgba(46, 47, 66, 0.4);
-  border-radius: 2px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  fill: transparent;
-}
-
-.contact-form-checkmark {
-  opacity: 0;
-}
-
-.contact-form-policy:checked + .contact-form-checkbox-icon {
-  background-color: #4d5ae5;
-}
-
-.contact-form-policy:checked
-  + .contact-form-checkbox-icon
-  > .contact-form-checkmark {
-  opacity: 1;
-  fill: var(--background-btn-filters);
-}
-
-.contact-form-policy:focus + .contact-form-checkbox-icon {
-  outline: 2px solid rgba(0, 0, 255, 0.5);
-}
-
 .contact-form-submit {
   font-family: var(--primary-font);
   font-weight: 500;
