@@ -891,7 +891,6 @@ body {
 
 .contact-form-imput:focus + .contact-form-icon {
   fill: #4d5ae5;
-  transition: var(--transition-duration-and-func);
 }
 
 .contact-form-comment {
